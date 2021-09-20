@@ -1,0 +1,122 @@
+.body{
+    background: url(/Photos/mountain.jpg);
+      color: white;
+      background-attachment: fixed;
+    background-size: 100%;
+      background-repeat: repeat-x;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+    .outer-div{
+  
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+      margin: 30px 30px 0px 30px;
+      padding: 30px 30px 30px 30px; 
+      /* background-color: #8860D0  ; */
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      justify-content: center;
+      display: -webkit-flex; 
+      -webkit-flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;  
+    }
+
+    .card-box{
+        width: 3000px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        margin: 30px 30px 30px 30px;
+        padding: 30px 30px 30px 30px;
+      }
+
+      h1{
+        font-weight: bolder;
+        color: #C1C8E4;
+        text-decoration:overline;
+        font-size: 35px;
+      }
+
+      p{
+          font-size: 25px;
+      }
+
+
+      .inf-row{
+          display: flex;
+          flex-direction: row;
+      }
+
+
+      .role{
+          margin-left:100px ;
+      }
+
+      .role-name{
+          text-decoration: underline;
+        font-weight: bold;
+    }
+
+
+
+
+    @media all and (max-width: 1000px) {
+      .body{
+        background: url(/Photos/mountain_phone.jpg);
+        color: white;
+        background-attachment: fixed;
+        background-size: 120%;
+        background-repeat: repeat-x;
+        flex-wrap: wrap;
+      }
+      
+      
+      
+        .outer-div{
+          margin: -45px -45px -45px -45px;
+          height: 100%;
+          font-family: 'Poppins', sans-serif;
+          justify-content: center;
+          display: -webkit-flex; 
+          -webkit-flex-wrap: wrap;
+          display: flex;
+          flex-wrap: wrap;  
+        }
+    
+        .card-box{
+            width: 3000px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            /* margin: 30px 30px 30px 30px;
+            padding: 30px 30px 30px 30px; */
+          }
+    
+          h1{
+            font-weight: bolder;
+            color: #C1C8E4;
+            text-decoration:overline;
+            font-size: 25px;
+          }
+    
+          p{
+              font-size: 20px;
+          }
+    
+    
+          .inf-row{
+              display: flex;
+              flex-direction: column;
+          }
+    
+    
+          .role{
+              margin-left:0px ;
+              margin-bottom: 30px;
+          }
+    
+          .role-name{
+            margin-bottom: -10px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
