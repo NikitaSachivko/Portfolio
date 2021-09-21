@@ -1,0 +1,182 @@
+.body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(/Photos/mountain.jpg);
+      color: black; 
+      background-attachment: fixed;
+    background-size: 100%;
+      background-repeat: repeat-x;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+    .outer-div{
+  
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+      margin: 30px 30px 0px 30px;
+      padding: 30px 30px 30px 30px; 
+      /* background-color: #8860D0  ; */
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      justify-content: center;
+      display: -webkit-flex; 
+      -webkit-flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;  
+    }
+
+    .card-box{
+      color: white;
+        width: 3000px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        margin: 30px 30px 30px 30px;
+        padding: 30px 30px 30px 30px;
+      }
+
+
+      h1{
+        font-weight: bolder;
+        color: #C1C8E4;
+        text-decoration:overline;
+        font-size: 35px;
+      }
+
+      p{
+          font-size: 25px;
+      }
+
+      a{
+          font-size: 25px;
+          text-align: center;
+          text-decoration: none;
+      }
+
+      .contact-div{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .contact-type{
+          margin-right: 35px;
+      }
+
+      .button {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 30px;
+        position: relative;
+        color: white;
+        transition: .5s;
+      }
+      .button:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        border: 2px solid rgba(0, 0, 0, 0);
+        transition: .4s;
+      }
+      .button:hover:after {
+        border-width: 5px;
+        border-color: white;
+        width: calc(100% - 20px);
+        height: calc(100% + 10px);
+      }
+
+
+      @media all and (max-width: 1000px) {
+        .body{
+          background: url(/Photos/mountain_phone.jpg);
+          color: white;
+          background-attachment: fixed;
+          background-size: 120%;
+          background-repeat: repeat-x;
+          flex-wrap: wrap;
+        }
+        
+        .button {
+          font-size: 25px;
+          font-weight: bold;
+          text-decoration: none;
+          display: inline-block;
+          padding: 10px 30px;
+          position: relative;
+          color: white;
+          transition: .5s;
+        }
+        .button:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          margin: auto;
+          border: 2px solid rgba(0, 0, 0, 0);
+          transition: .4s;
+        }
+        .button:hover:after {
+          border-width: 5px;
+          border-color: white;
+          width: calc(100% - 20px);
+          height: calc(100% + 10px);
+        }
+  
+        
+          .outer-div{
+            margin: 10px -45px -45px -45px;
+            height: 100%;
+            font-family: 'Poppins', sans-serif;
+            justify-content: center;
+            display: -webkit-flex; 
+            -webkit-flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;  
+          }
+      
+          .card-box{
+              width: 3000px;
+              box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+              /* margin: 30px 30px 30px 30px;
+              padding: 30px 30px 30px 30px; */
+            }
+      
+            h1{
+              font-weight: bolder;
+              color: #C1C8E4;
+              text-decoration:overline;
+              font-size: 25px;
+            }
+      
+            p{
+                font-size: 20px;
+            }
+      
+      
+            .inf-row{
+                display: flex;
+                flex-direction: column;
+            }
+      
+      
+            .role{
+                margin-left:0px ;
+                margin-bottom: 30px;
+            }
+      
+            .role-name{
+              margin-bottom: -10px;
+              text-decoration: underline;
+              font-weight: bold;
+          }
+      }
